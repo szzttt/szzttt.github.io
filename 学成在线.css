@@ -1,0 +1,690 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f5f7;
+    /* height: 3000px; */
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.hnk {
+    display: inline-block;
+}
+
+.zuofu {
+    float: left;
+}
+
+.youfu {
+    float: right;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('fonts/iconfont.ttf') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 40px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* top开始了 */
+.top {
+    height: 41px;
+    color: #000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.toper {
+    margin-left: 70px;
+}
+
+.toper ul li a {
+    display: inline-block;
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-left: 13px;
+    margin-right: 13px;
+    line-height: 41px;
+    height: 41px;
+    font-family: MicrosoftYaHei;
+    font-size: 18px;
+    font-weight: normal;
+    color: #050505;
+}
+
+.toper ul li a:hover {
+    color: #00a4ff;
+    border-bottom: 2px solid #00a4ff;
+
+}
+
+.toper ul li {
+    display: inline-block;
+}
+
+.topsan {
+    width: 412px;
+    height: 40px;
+    margin-left: 72px;
+
+}
+
+.zuizuo {
+    width: 147px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 400px;
+
+}
+
+.zuizuo img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.sousuo {
+    width: 338px;
+    height: 39px;
+    padding-left: 21px;
+    border: solid 1px #00a4ff;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    color: #bfbfbf;
+}
+
+.sousuoimg {
+    width: 51px;
+}
+
+.topsi {
+    width: 118px;
+    margin-left: 31px;
+}
+
+.topzi {
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 1px;
+    color: #666666;
+    line-height: 33px;
+}
+
+/* <!-- top结束了 --> */
+
+/* mainyi开始了 */
+.mainyi {
+    position: relative;
+    background-color: #1c036c;
+    height: 420px;
+    margin-top: 30px;
+}
+
+.mainzuo {
+    width: 190px;
+    height: 420px;
+    background-color: rgb(0, 0, 0, 0.3)
+}
+
+.mainyi .biao {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    color: #fafafa;
+    height: 40px;
+    width: 40px;
+}
+
+.mainyi .biaoer {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    color: #fafafa;
+}
+
+.mainyi .xiadian {
+    position: absolute;
+    right: 45%;
+    bottom: 30px;
+    width: 160px;
+    height: 12px;
+    z-index: 6;
+}
+
+.mainyi .xiadian li {
+    display: inline-block;
+    border-radius: 6px;
+    width: 12px;
+    height: 12px;
+    background: rgba(255, 255, 255, .3);
+    margin-right: 10px;
+}
+
+
+
+.mainyi .xiadian li:hover {
+    background: rgba(255, 255, 255, 1);
+}
+
+
+.mainzuo li a {
+    display: block;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    font-weight: normal;
+    color: #ffffff;
+    padding-left: 20px;
+    height: 46px;
+    width: 170px;
+    line-height: 46px;
+}
+
+.mainzuo li a span {
+
+    margin-right: 16px;
+}
+
+.mainyou {
+    width: 228px;
+    height: 300px;
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+
+.mainzuo li a:hover {
+    color: #00b4ff;
+}
+
+.mainyou .top {
+    height: 48px;
+    background-color: #9bceea;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    color: #ffffff;
+    line-height: 48px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.mainyouyi {
+    width: 192px;
+    height: 66px;
+    margin-left: 19px;
+    border-bottom: 1px solid #e5e5e5;
+
+}
+
+.mainyouyi h5 {
+    font-family: FZLTCXHJW--GB1-0;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #4e4e4e;
+    padding-top: 18px;
+}
+
+.mainyouyi p {
+    font-family: FZLTCXHJW--GB1-0;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #a5a5a5;
+}
+
+.mainyouer {
+    width: 200px;
+    height: 40px;
+
+    border: solid 1px #00a4ff;
+    margin: 3px auto;
+}
+
+.mainyouer h5 a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #00a4ff;
+}
+
+.mainyi .w {
+    position: relative;
+    height: 420px;
+    background: url(img/banner2.png);
+}
+
+.mainyi .box {
+    display: none;
+    position: absolute;
+    width: 782px;
+    height: 420px;
+    left: 190px;
+    background: rgb(0, 0, 0, 0.8);
+}
+
+.mainyi .box2 .iconfont {
+    display: none;
+    position: absolute;
+    font-size: 74px;
+    left: 544px;
+    top: 173px;
+    color: #fff;
+}
+
+.mainyi .w:hover .box {
+    display: block;
+}
+
+.mainyi .w:hover .box2 .iconfont {
+    display: block;
+}
+
+
+
+/* mainyi结束了 */
+/* mainer */
+.mainer {
+    height: 60px;
+    background-color: #ffffff;
+    margin-top: 8px;
+    box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.mainer h4 {
+    margin-left: 30px;
+    height: 60px;
+    line-height: 60px;
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 16px;
+    font-weight: 700;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #00a4ff;
+}
+
+.mainer .hnk {
+    float: left;
+    height: 16px;
+    width: 122px;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #050505;
+    text-align: center;
+    margin: 22px 0;
+    border-left: 1px solid #000;
+    font-size: 16px;
+    color: #050505;
+    border-left: 1px solid #ccc;
+    line-height: 16px;
+}
+
+.mainer .ayi {
+    margin-left: 33px;
+}
+
+.mainer h5 a {
+    height: 60px;
+    line-height: 60px;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #00a4ff;
+    margin-right: 26px;
+}
+
+/* mainer */
+/* 精品推荐 */
+
+
+.jingpin h3 {
+    width: 80px;
+    height: 19px;
+    font-family: MicrosoftYaHei;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #494949;
+    margin-bottom: 21px;
+    margin-top: 37px;
+}
+
+.jingpin p {
+    width: 48px;
+    height: 11px;
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #a5a5a5;
+    margin-left: 1041px;
+}
+
+.jingpin .hot {
+    position: absolute;
+    right: -4px;
+    top: 0;
+}
+
+.jingpin ul {
+    width: 1275px;
+}
+
+.jingpin ul li {
+    position: relative;
+    background-color: #fff;
+    width: 228px;
+    height: 270px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.jingpin ul li img {
+    width: 100%;
+}
+
+.jingpin ul li p {
+    width: 184px;
+    height: 32px;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #050505;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.jingpin ul li h5 {
+    float: left;
+    height: 11px;
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #ff7c2d;
+    margin-left: 23px;
+    margin-top: 20px;
+}
+
+.jingpin ul li h6 {
+    float: left;
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #999999;
+    margin-top: 20px;
+    margin-left: 4px;
+}
+
+/* 精品推荐 */
+/* 编程开始 */
+
+
+.biancheng {
+    margin-top: 23px;
+}
+
+.biancheng .yi {
+    height: 20px;
+}
+
+.biancheng .yi h3 {
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+    font-family: MicrosoftYaHei;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #494949;
+}
+
+.biancheng .yi ul li {
+    float: left;
+}
+
+.biancheng .yi ul {
+    margin-left: 352px;
+}
+
+.biancheng .yi ul li a {
+    height: 20px;
+    display: inline-block;
+    line-height: 20px;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #868686;
+    margin-right: 71px;
+}
+
+.biancheng .yi ul li a:hover {
+    color: #00a4ff;
+}
+
+.biancheng .yi h4 a {
+    display: block;
+    width: 48px;
+    height: 20px;
+    line-height: 20px;
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #a5a5a5;
+    margin-right: 31px;
+}
+
+.biancheng .er {
+    margin-top: 44px;
+    height: 392px;
+}
+
+.biancheng .er .zuo {
+
+    width: 228px;
+    height: 392px;
+    background-image: url(img/椭圆6拷贝16.png);
+    margin-right: 14px;
+}
+
+.biancheng .er .youyi {
+    width: 957px;
+    height: 100px;
+    background-image: url(img/图层155.png);
+}
+
+.biancheng .er {
+    width: 1300px;
+}
+
+.biancheng .er ul {
+    float: left;
+}
+
+.biancheng .er ul li {
+    float: left;
+    width: 228px;
+    height: 270px;
+    background-color: #ffffff;
+    margin-top: 23px;
+    margin-right: 15px;
+}
+
+.biancheng .er ul li img {
+    width: 100%;
+}
+
+.biancheng .er ul li p {
+    width: 184px;
+    height: 32px;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #050505;
+    margin-top: 25px;
+    margin-left: 23px;
+}
+
+.biancheng .er ul li h6 {
+    float: left;
+    height: 11px;
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #ff7c2d;
+    margin-left: 22px;
+    margin-top: 20px;
+}
+
+.biancheng .er ul li h5 {
+    height: 11px;
+    float: left;
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #999999;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+
+/* 编程结束 */
+/* 尾巴 */
+
+.footer {
+    height: 417px;
+    background-color: #ffffff;
+    margin-top: 40px;
+}
+
+.footer .w .zuo {
+    margin-top: 33px;
+    margin-right: 73px;
+}
+
+.footer .w .zuo p {
+    height: 30px;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 18px;
+    letter-spacing: 0px;
+    color: #666666;
+    margin-top: 23px;
+}
+
+.footer .w .zuo a {
+    display: block;
+    width: 120px;
+    height: 36px;
+    line-height: 36px;
+    border: solid 1px #00a4ff;
+    text-align: center;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #00a4ff;
+    margin-top: 15px;
+}
+
+.footer .w .you {
+    margin-top: 33px;
+    /* width: 508px; */
+}
+
+.footer .w .you dl {
+    float: left;
+    margin-left: 146px;
+}
+
+.footer dl dt {
+    float: left;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.footer dl dd a {
+    float: left;
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    line-height: 21px;
+    color: #333333;
+}
+
+/* 尾巴 */
