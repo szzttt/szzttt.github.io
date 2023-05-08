@@ -1,0 +1,419 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.top {
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+
+.top .yi {
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #666666;
+}
+
+.top .yi a {
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #c81623;
+    margin-left: 12px;
+}
+
+.top .yi span {
+    margin-right: 12px;
+}
+
+.top .er ul li a {
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #666666;
+    padding: 0 14px;
+    border-right: solid 1px #666666;
+}
+
+.top .er ul li a span {
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #666666;
+}
+
+.top .er ul li .nb {
+    border: 0;
+}
+
+.top .er ul li {
+    display: inline-block;
+    height: 12px;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.ttf');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.pin {
+    margin-top: 25px;
+}
+
+.pin .w .zuo {
+    width: 174px;
+    height: 60px;
+    background-image: url(../bd-img/icons.png);
+    background-position: -371px -13px;
+    background-repeat: no-repeat;
+    margin-right: 173px;
+}
+
+/* .pin .w .zhong {
+    width: 538px;
+    height: 36px;
+} */
+.pin .w .zhong ul {
+    margin-left: 12px;
+}
+
+.pin .w .zhong ul li {
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #666666;
+    margin-right: 23px;
+    margin-top: 8px;
+}
+
+.pin .w .zhong ul li a:hover {
+    color: #c81623;
+}
+
+.pin .w .zhong .kuang {
+    text-indent: 12px;
+    width: 456px;
+    height: 36px;
+    border: solid 2px #b1191a;
+    border-right: 0;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 31px;
+    letter-spacing: 0px;
+    color: #666666;
+    outline: none;
+
+}
+
+.pin .w .zhong .sou {
+    width: 80px;
+    height: 40px;
+    background-color: #b1191a;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    margin-left: 0;
+    border: 0;
+}
+
+.pin .w .you {
+
+    position: relative;
+    width: 140px;
+    height: 36px;
+    background-color: #f7f7f7;
+    border: solid 1px #dfdfdf;
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 36px;
+    letter-spacing: 0px;
+    color: #666666;
+    text-align: center;
+    margin-right: 63px;
+}
+
+.pin .w .you .nb {
+    position: absolute;
+    right: 18px;
+    top: -7px;
+    background-color: #e60012;
+    width: 16px;
+    height: 16px;
+    line-height: 19px;
+    border-radius: 8px 8px 8px 0;
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #fefefe;
+}
+
+.pin .w .you span {
+    font-size: 12px;
+    color: #999;
+}
+
+
+
+.pin .w .you .che {
+    color: #d84a4a;
+    font-size: 16px;
+    margin-left: 9px;
+    margin-right: 7px;
+}
+
+.pin .w .you a:hover {
+    color: #d84a4a;
+}
+
+/* .pin .w .you .q {
+    margin-right: 10px;
+} */
+.pin .w .you p {
+    margin-right: 8px;
+}
+
+.quan {
+    height: 45px;
+    line-height: 45px;
+    border-bottom: solid 2px #b1191a;
+    margin-top: 20px;
+}
+
+.quan .w .zuo {
+    width: 209px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #b1191a;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #ffffff;
+}
+
+.quan .w ul li {
+    float: left;
+    margin-left: 48px;
+}
+
+.quan .w ul li a {
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #333333;
+}
+
+.footer {
+    height: 417px;
+    background-color: #f5f5f5;
+}
+
+/* .footer .yi {
+    position: relative;
+    width: 168px;
+    height: 52px;
+}
+
+.footer .yi h4 {
+    float: right;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #333333;
+    margin-right: 51px;
+    margin-top: 6px;
+}
+
+.footer .yi h5 {
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    bottom: 6px;
+    float: right;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #666666;
+} */
+.footer {
+    margin-top: 31px;
+}
+
+.footer ul {
+    width: 2000px;
+}
+
+.footer .er {
+    margin-top: 30px;
+    margin-left: 36px;
+    margin-right: 34px;
+}
+
+.footer .er h4 {
+    width: 150px;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    color: #333333;
+    margin-top: 4px;
+    /* margin-left: 6px; */
+}
+
+.footer .er h5 {
+    width: 164px;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    color: #666666;
+    margin-top: 4px;
+    /* margin-left: 6px; */
+}
+
+.footer .er img {
+    margin-right: 7px;
+}
+
+.footer .san {
+    height: 187px;
+    border-top: solid 2px #ededed;
+    border-bottom: solid 2px #ededed;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.footer dl {
+    float: left;
+    margin-left: 47px;
+    margin-right: 89px;
+}
+
+.footer dl dt {
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #333333;
+    margin-top: 21px;
+    margin-bottom: 13px;
+}
+
+.footer dt dd {
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #666666;
+    margin-bottom: 7px;
+}
+
+.san .bz {
+    font-family: MicrosoftYaHei;
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #333333;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.san .bz dd {
+    margin-bottom: 8px;
+}
+
+.san img {
+    width: 95px;
+}
+
+.san dd {
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #333333;
+}
+
+.si {
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #999999;
+}
+
+.si ul {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.si ul li {
+    height: 12px;
+    line-height: 12px;
+    float: left;
+    padding: 0 14px;
+    border-right: solid 1px #999;
+}
+
+.si ul .nb li {
+    border: 0;
+}
+
+/* .si ul a:hover {
+    color: #999;
+} */
+
+.wu {
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #666666;
+    text-align: center;
+    margin-top: 12px;
+}
