@@ -1,0 +1,897 @@
+.footer {
+    margin-top: 20px;
+}
+
+.shou {
+    margin-top: 26px;
+}
+
+.shou .yi ul {
+    margin-bottom: 10px;
+}
+
+.shou .yi ul li {
+    display: inline-block;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #666666;
+    padding: 0 18px;
+}
+
+.shou .yi ul .nb {
+    padding-left: 0;
+}
+
+.shou .yi ul span {
+    font-family: SimSun;
+    font-size: 1px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #666666;
+}
+
+.shou .yi ul .nb,
+.shou .yi ul .nbb {
+    display: inline-block;
+}
+
+.shou .yi ul li:hover {
+    color: #333333;
+}
+
+.shou .er h4 {
+    display: inline-block;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #666666;
+    margin-top: 47px;
+    margin-right: 37px;
+}
+
+.shou .er h5 {
+    display: inline-block;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #666666;
+    margin-right: 37px;
+}
+
+.shou .er h6 {
+    display: inline-block;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #666666;
+    margin-right: 37px;
+}
+
+.shou .er i {
+    display: inline-block;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #666666;
+}
+
+.shou .er img {
+    display: inline-block;
+}
+
+.shou .er input {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.shou .er .tu {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #ffffff;
+    border: solid 1px #ededed;
+    background: url(../img/图层144.png) no-repeat;
+    background-position: 117px 34px;
+}
+
+.shou .er ul {
+    height: 58px;
+    margin-left: 19px;
+    margin-top: 40px;
+}
+
+.shou .er ul .nb {
+    float: left;
+    position: relative;
+    width: 58px;
+    height: 58px;
+    background-color: #ffffff;
+    background: url(../img/图层146.png) no-repeat;
+    background-position: 15px 1px;
+    vertical-align: middle;
+}
+
+.shou .er ul .nbb {
+    float: left;
+    position: relative;
+    width: 58px;
+    height: 58px;
+    background-color: #ffffff;
+    background: url(../img/图层147.png) no-repeat;
+    background-position: -55px -2px;
+    vertical-align: middle;
+}
+
+.shou .er ul li:hover {
+    border: solid 1px #c81623;
+}
+
+.shou .er ul span {
+    /* position: absolute; */
+    float: left;
+    font-size: 38px;
+    color: #dddddd;
+    /* padding-bottom: 20px; */
+}
+
+.shou .san {
+    width: 718px;
+    height: 113px;
+    margin-left: 80px;
+}
+
+.shou .san .zhong {
+    background-color: #fee9eb;
+}
+
+.shou .san .shang h4 {
+    display: inline-block;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #333333;
+}
+
+.shou .san .shang h5 {
+    display: inline-block;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    margin-bottom: 16px;
+    color: #e12228;
+    margin: 16px 0;
+}
+
+.shou .san .zhong span {
+    float: left;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 31px;
+    letter-spacing: 0px;
+    color: #666666;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-top: 5px;
+}
+
+.shou .san .zhong h4 {
+    display: inline-block;
+    font-family: MicrosoftYaHei;
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #e12228;
+    margin-top: 1px;
+}
+
+.shou .san .zhong h5 {
+    display: inline-block;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 31px;
+    letter-spacing: 0px;
+    color: #c81623;
+}
+
+.shou .san .zhong h6 {
+    display: inline-block;
+    width: 40px;
+    height: 22px;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    text-align: center;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: #ffffff;
+
+    background-color: #c81623;
+}
+
+.shou .san .zhong p {
+    display: inline-block;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #999999;
+    margin-top: 5px;
+}
+
+.shou .san .zhong i {
+
+    display: inline-block;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #999999;
+    margin-left: 360px;
+}
+
+.shou .san .zhong b {
+    float: right;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #1474af;
+    margin-right: 16px;
+    margin-top: 15px;
+}
+
+.shou .san .zhong .nb {
+    margin-top: 9px;
+    padding-bottom: 26px;
+}
+
+.shou .san .xia {
+    margin-top: 13px;
+    border-bottom: 1px solid #ededed;
+}
+
+.shou .san .xia span {
+    float: left;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #666666;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 4px;
+}
+
+.shou .san .xia h4 {
+    display: inline-block;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #999999;
+}
+
+.shou .san .xia i {
+    float: left;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 31px;
+    letter-spacing: 0px;
+    color: #666666;
+    margin-left: 14px;
+}
+
+.shou .san .xia h5 {
+    display: inline-block;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #999999;
+    margin-left: 9px;
+}
+
+.shou .san .xia h5 em {
+    display: inline-block;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #999999;
+}
+
+.shou .san .xia h6 {
+    display: inline-block;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #999999;
+    margin-left: 9px;
+    margin-bottom: 7px;
+}
+
+.shou .san .xia b {
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #999999;
+}
+
+.shou .xuan {
+    margin-top: 10px;
+}
+
+.shou .xuan h4 {
+    float: left;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 45px;
+    letter-spacing: 0px;
+    color: #666666;
+    margin-right: 10px;
+    margin-left: 17px;
+    margin-top: 6px;
+}
+
+/* .shou .xuan ul {
+    display: inline-block;
+} */
+/* .shou .xuan .nb li {
+    
+} */
+.shou .xuan ul li {
+    display: inline-block;
+    width: 82px;
+    height: 43px;
+    line-height: 43px;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #333333;
+    background-color: #f7f7f7;
+    border: solid 1px #ededed;
+    margin: 4px 4px;
+}
+
+.xiang1 {
+    margin-top: 70px;
+}
+
+.shou .jia .shuu {
+    position: relative;
+    margin-left: 17px;
+    margin-top: 21px;
+}
+
+.shou .jia .shu {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    border: solid 1px #ccc;
+}
+
+.shou .jia .s {
+    position: absolute;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    text-align: center;
+    border: solid 1px #ccc;
+    background: #f1f1f1;
+    border-left: 0;
+    border-bottom: 0;
+}
+
+.shou .jia .x {
+    position: absolute;
+    left: 48px;
+    bottom: 0px;
+    display: inline-block;
+    height: 23px;
+    width: 22px;
+    text-align: center;
+    background: #f1f1f1;
+    border: solid 1px #ccc;
+    border-left: 0;
+}
+
+.shou .jia .an {
+    display: inline-block;
+    width: 142px;
+    height: 49px;
+    line-height: 46px;
+    font-family: MicrosoftYaHei;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #ffffff;
+    background-color: #c81623;
+    border: 0;
+    margin-left: 28px;
+}
+
+/* da  */
+.da {
+    width: 210px;
+    height: 2429px;
+    background-color: #ffffff;
+    border: solid 1px #dddddd;
+    margin-top: 100px;
+}
+
+.da .xiang {
+    width: 104px;
+    height: 35px;
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    text-align: center;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #c81623;
+    background-color: #fff;
+    outline: 0;
+    border: 0;
+}
+
+.da .tui {
+    width: 103px;
+    height: 35px;
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #333333;
+    text-align: center;
+    background-color: #f1f1f1;
+    border: solid 1px #dddddd;
+    border-top: 0;
+    border-right: 0;
+    margin-right: -1px;
+}
+
+.da .yi {
+    margin-top: 10px;
+}
+
+.da .yi li {
+    float: left;
+    width: 100px;
+    height: 23px;
+    text-align: center;
+    border-bottom: 1px dotted #ccc;
+    margin-top: 10px;
+    margin-left: 4px;
+
+}
+
+.da h4 {
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #333333;
+    padding-left: 17px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.da .er .nb {
+    border-bottom: 0;
+}
+
+.da .er li {
+    height: 232px;
+    border-bottom: 1px solid #ccc;
+}
+
+.da .er .tu {
+    width: 140px;
+    height: 120px;
+    background: url(../img/图层160.png) no-repeat;
+    margin: 10px auto;
+}
+
+/* .da .er .zi {
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #333333;
+} */
+
+.da .er h5 {
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #333333;
+    text-align: center;
+}
+
+.da .er span {
+    display: block;
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    font-weight: 700;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #333333;
+    margin-left: 14px;
+}
+
+.da .er input {
+    display: block;
+    width: 90px;
+    height: 28px;
+    background-color: #f7f7f7;
+    border: solid 1px #dddddd;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #333333;
+    margin: 0 auto;
+}
+
+.xuan {
+    height: 2385px;
+}
+
+.xuan ul {
+    width: 500px;
+}
+
+/* .ze {
+    margin-left: 5px;
+} */
+
+.ze .yi {
+    width: 985px;
+    height: 41px;
+    line-height: 41px;
+    background-color: #f1f1f1;
+    border: solid 1px #dddddd;
+    margin-top: 100px;
+}
+
+.ze h4 {
+    width: 87px;
+    height: 41px;
+    line-height: 41px;
+    background-color: #c81623;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.ze .er .jing {
+    border-bottom: 1px solid #ccc;
+}
+
+.ze .er .jing li {
+    float: left;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #999999;
+    padding: 10px 22px;
+}
+
+.ze .er .wu {
+    margin-left: 20px;
+}
+
+.ze .er .wu li {
+    float: left;
+    width: 132px;
+    height: 132px;
+    margin: 0 14px;
+}
+
+.ze .er .wu li .tu {
+    width: 58px;
+    height: 116px;
+    background: url(../img/图层144.png) no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+
+}
+
+.ze .er .wu li .tu1 {
+    width: 117px;
+    height: 108px;
+    background: url(../img/图层1251.png) no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+}
+
+.ze .er .wu li span {
+    display: block;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    text-align: center;
+    line-height: 31px;
+    letter-spacing: 0px;
+    color: #e12228;
+    margin-top: 10px;
+}
+
+.ze .er .wu li .zi {
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #333333;
+    margin-bottom: 4px;
+}
+
+.ze .er .wu li i {
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #e12228;
+}
+
+.ze .er .wu b {
+    float: left;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.ze .er .wu .you h3 {
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 31px;
+    letter-spacing: 0px;
+    color: #333333;
+    margin-top: 47px;
+}
+
+.ze .er {
+    border: #ccc solid 1px;
+    border-top: 0;
+    border-left: 0;
+}
+
+/* 
+.ze .er .wu .you {
+    border-left: #ccc solid 1px;
+} */
+
+.ze .er .wu .you h5 {
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 31px;
+    letter-spacing: 0px;
+    color: #333333;
+}
+
+.ze .er .wu .you h6 {
+    font-family: MicrosoftYaHei;
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #e12228;
+}
+
+.ze .er .wu .you input {
+    width: 117px;
+    height: 46px;
+    background-color: #c81623;
+    font-family: MicrosoftYaHei;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    text-align: center;
+    border: 0;
+    margin-top: 24px;
+}
+
+.ze .er .shang .yi {
+    width: 985px;
+    height: 41px;
+    background-color: #f1f1f1;
+    border-right: 0;
+    /* border: solid 1px #dddddd; */
+}
+
+.ze .er .shang .yi li {
+    float: left;
+    height: 41px;
+
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #333333;
+    padding: 0 20px;
+}
+
+.ze .er .shang .yi .nb {
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #ffffff;
+    background-color: #c81623;
+}
+
+.ze .er .shang p {
+    line-height: 24px;
+    margin: 10px 36px;
+}
+
+.ze .er .datu {
+    height: 774px;
+    background-color: #fbfbfb;
+}
+
+.ze .er .datu .tu {
+    width: 736px;
+    height: 777px;
+    background: url(../img/图层161.png) no-repeat;
+    margin: 0 auto;
+}
+
+.ze .er .datu1 {
+    height: 424px;
+    background-color: #f0f0f0;
+}
+
+.ze .er .datu1 .tu {
+    width: 736px;
+    height: 777px;
+    background: url(../img/图层162.png) no-repeat;
+    background-position: 0 -4px;
+    margin: 0 auto;
+
+}
+
+.ze .er .datu2 {
+    margin-top: 4px;
+}
+
+.ze .er .datu2 .tu {
+
+    width: 736px;
+    height: 444px;
+    background: url(../img/图层162.png) no-repeat;
+    background-position: 0 -450px;
+    margin: auto;
+}
+
+/* cai  */
+.cai h4 {
+    margin-top: 20px;
+    /* width: 1199px; */
+    height: 41px;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    text-indent: 12px;
+    line-height: 41px;
+    color: #333333;
+    background-color: #f0f0f0;
+    border: solid 1px #dddddd;
+}
+
+.cai ul {
+    height: 247px;
+    border: solid 1px #dddddd;
+    border-top: 0;
+}
+
+.cai ul li {
+    float: left;
+    width: 134px;
+    margin-top: 30px;
+    margin-left: 59px;
+}
+
+.cai ul li .tu {
+    width: 54px;
+    height: 111px;
+    background: url(../img/图层144.png);
+    background-size: 100%;
+    margin: 0 auto;
+}
+
+.cai ul li p {
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #666666;
+    margin-top: 20px;
+}
+
+.cai ul li .zi {
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 31px;
+    letter-spacing: 0px;
+    color: #e12228;
+}
