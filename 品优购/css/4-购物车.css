@@ -1,0 +1,465 @@
+.pin .zuo {
+    position: relative;
+}
+
+.pin .gou {
+    position: absolute;
+    right: -77px;
+    top: 10px;
+    width: 57px;
+    height: 19px;
+    font-family: MicrosoftYaHei;
+    font-size: 19px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #333333;
+}
+
+.tian {
+    width: 145px;
+    height: 17px;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #666666;
+    margin-top: 20px;
+}
+
+.shou {
+    height: 787px;
+    background-color: #ffffff;
+    border: solid 1px #dddddd;
+    margin-top: 20px;
+}
+
+.shou .yi h4 {
+    display: inline-block;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #333333;
+    margin: 41px 945px 18px 51px;
+}
+
+.shou .yi span {
+    display: inline-block;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #1474af;
+}
+
+.shou .er button {
+    display: inline-block;
+    width: 144px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #666666;
+    background-color: #ffffff;
+    border: solid 2px #c81623;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+
+.shou .er span {
+    display: inline-block;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #666666;
+}
+
+.shou .san {
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #666666;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.shou .san span {
+    font-size: 2px;
+}
+
+.shou .si button {
+    display: inline-block;
+    width: 144px;
+    height: 30px;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #666666;
+    background-color: #ffffff;
+    border: solid 1px #dddddd;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.shou .si span {
+    display: inline-block;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #666666;
+}
+
+.shou h5 {
+
+    height: 15px;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #333333;
+    margin-left: 51px;
+    margin-top: 20px;
+}
+
+.shou .wuu {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.shou .wuu button {
+    display: inline-block;
+    width: 98px;
+    height: 30px;
+    background-color: #ffffff;
+    border: solid 1px #dddddd;
+
+}
+
+.shou .wuu .nb {
+    display: inline-block;
+    width: 98px;
+    height: 30px;
+    background-color: #ffffff;
+    border: solid 2px #c81623;
+    margin-left: 10px;
+}
+
+.shou .wuu span {
+    display: inline-block;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #666666;
+    margin-left: 20px;
+}
+
+.shou .liu {
+    width: 1148px;
+    height: 101px;
+    background-color: #f4f4f4;
+    margin-left: 20px;
+
+}
+
+.shou h6 {
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #666666;
+    margin-left: 51px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.shou .liu button {
+
+    display: inline-block;
+    width: 144px;
+    height: 30px;
+    background-color: #ffffff;
+    border: solid 2px #c81623;
+    margin-left: 51px;
+    margin-top: 20px;
+}
+
+.shou .liu span {
+    display: inline-block;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #666666;
+    margin-left: 30px;
+}
+
+.shou .liu b {
+    display: inline-block;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #1474af;
+    margin-left: 380px;
+}
+
+.shou .qi {
+    height: 153px;
+    width: 1148px;
+    background-color: #feedef;
+    margin-left: 20px;
+
+}
+
+.shou .qi img {
+    float: left;
+    width: 80px;
+    height: 80px;
+    border: solid 1px #dddddd;
+    margin-left: 51px;
+    margin-top: 20px;
+}
+
+.shou .qi p {
+    display: inline-block;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #666666;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 322px;
+}
+
+.shou .qi span {
+    display: inline-block;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 31px;
+    letter-spacing: 0px;
+    color: #e12228;
+}
+
+.shou .qi b {
+    display: inline-block;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #666666;
+    margin: 0 47px;
+}
+
+.shou .qi i {
+    display: inline-block;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #666666;
+}
+
+.shou .qi em {
+    display: inline-block;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #c81623;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.shou ul {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.shou ul li {
+    float: left;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #666666;
+    padding: 10px;
+
+}
+
+.shou ul .nb {
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #1474af;
+}
+
+.shou h5 span {
+    font-family: SimSun;
+    font-size: 2px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #666666;
+}
+
+.fei h4 {
+    display: inline-block;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #666666;
+    margin-left: 1000px;
+}
+
+.fei {
+    margin-top: 20px;
+}
+
+.fei h5 {
+    display: inline-block;
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #333333;
+}
+
+.fei h4 span {
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 18px;
+    letter-spacing: 0px;
+    color: #c81623;
+}
+
+.ying {
+    height: 72px;
+    background-color: #f4f4f4;
+    border: solid 1px #dddddd;
+}
+
+.ying h4 {
+    display: inline-block;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #999999;
+    margin-left: 1000px;
+}
+
+.ying h5 {
+    display: inline-block;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #e60012;
+    margin-top: 10px;
+}
+
+.ying p {
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #999999;
+    margin-left: 711px;
+    margin-top: 10px;
+}
+
+.ti {
+    display: block;
+    width: 142px;
+    height: 46px;
+    font-family: MicrosoftYaHei;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    border: 0;
+    background-color: #e12228;
+    margin-top: 20px;
+    margin-left: 1220px;
+}
+
+/* quan  */
+.quanbu {
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #c81623;
+    margin-top: 20px;
+}
+
+.quanxuan input {
+    vertical-align: middle;
+    margin: 0 2px;
+}
+
+.quanxuan {
+    height: 36px;
+    line-height: 36px;
+    background-color: #f5f5f5;
+    border: solid 1px #dddddd;
+}
+
+
+.quanxuan span {
+    display: inline-block;
+    font-family: SimSun;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #666666;
+    margin-right: 150px;
+
+}
+
+.quanxuan .nb {
+    margin-right: 195px;
+}
+.zi  
